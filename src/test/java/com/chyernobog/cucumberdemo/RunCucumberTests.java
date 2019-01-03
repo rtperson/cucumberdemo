@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty"},
         snippets = SnippetType.CAMELCASE,
-        glue = "com.accenture.cucumberdemo")
+        glue = "com.chyernobog.cucumberdemo")
 public class RunCucumberTests {
 }
