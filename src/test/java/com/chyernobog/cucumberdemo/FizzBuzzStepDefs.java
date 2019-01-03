@@ -23,5 +23,14 @@ public class FizzBuzzStepDefs implements En {
                 }
             }
         });
+
+        When("{int} is divisible by {int}", (Integer count, Integer three) -> {
+            assert(count % three == 0);
+        });
+
+        Then("FizzBuzz prints out {String} for {int}", (String result, Integer count) -> {
+            String res = fizzBuzz.getCount()[count];
+            assert(res.equalsIgnoreCase(result));
+        });
     }
 }
