@@ -18,3 +18,15 @@ Feature: Is FizzBuzz Working?
       | 3     | 3         | Fizz   |
       | 12    | 3         | Fizz   |
 
+  Scenario Outline: FizzBuzz prints "Fizz" or "Buzz" or "FizzBuzz" or number
+    Given FizzBuzz exists
+    And FizzBuzz is running
+    Then FizzBuzz prints out <result> for <count>
+    Examples:
+      | count | result   |
+      | 1     | 1        |
+      | 3     | Fizz     |
+      | 4     | 4        |
+      | 5     | Buzz     |
+      | 12    | Fizz     |
+      | 15    | FizzBuzz |
