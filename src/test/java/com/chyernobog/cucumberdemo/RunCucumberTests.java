@@ -1,4 +1,4 @@
-package com.accenture.cucumberdemo;
+package com.chyernobog.cucumberdemo;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;

@@ -1,4 +1,4 @@
-package com.accenture.cucumberdemo;
+package com.chyernobog.cucumberdemo;
 
 public class FizzBuzz {
 
