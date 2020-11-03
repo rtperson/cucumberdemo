@@ -27,5 +27,7 @@ hs_err_pid*
 
 .DS_Store
 
+*.iml
+
 # maven output files
 /target/
