@@ -2,12 +2,15 @@ package com.chyernobog.cucumberdemo;
 
 import io.cucumber.java8.En;
 
-import static org.junit.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class FizzBuzzStepDefs implements En {
     private FizzBuzz fizzBuzz;
 
     public FizzBuzzStepDefs() {
+
         Given("FizzBuzz exists", () -> fizzBuzz = new FizzBuzz());
 
         When("FizzBuzz is running", () -> fizzBuzz.runFizzBuzz());
@@ -29,4 +32,6 @@ public class FizzBuzzStepDefs implements En {
             assert(res.equalsIgnoreCase(result));
         });
     }
+
 }
+

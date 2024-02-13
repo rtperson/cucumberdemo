@@ -30,5 +30,3 @@ Feature: Is FizzBuzz Working?
       | 5     | Buzz     |
       | 12    | Fizz     |
       | 15    | FizzBuzz |
-
-
