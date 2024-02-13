@@ -1,8 +1,8 @@
 package com.chyernobog.cucumberdemo;
 
-import cucumber.api.java8.En;
+import io.cucumber.java8.En;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class FizzBuzzStepDefs implements En {
     private FizzBuzz fizzBuzz;
